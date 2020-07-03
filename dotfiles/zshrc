@@ -112,7 +112,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias freeorphans="sudo pacman -Rs $(pacman -Qqdt)"
+# list orphans
+alias orphans-list="pacman -Qdt"
+# remove orphans
+alias orphans-remove="sudo pacman -Rns $(pacman -Qtdq)"
+# gitpush script
 alias gitpush="sh ~/Documents/projects/AutoLinux/bash/gitpush.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
