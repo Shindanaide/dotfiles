@@ -1,2 +1,6 @@
-# dotfiles
-Collection of config files used in my Manjaro setup
+# AutoLinux
+ This repository contains:  
+- .dotfiles
+- Collection of scripts/configs randomly taken from the web.
+- Love for Linux
+- Automation scripts for lazy people
