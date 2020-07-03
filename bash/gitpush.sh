@@ -8,7 +8,7 @@ read commitMessage
 
 git commit -m "$commitMessage"
 
-branch=$(git branch | cut -c3- | slmenu -p "Select the branch to push: ")
+branch=$(git branch | cut -c3- | dmenu -p "Select the branch to push: ")
 
 git push origin $branch
 
