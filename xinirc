@@ -1,0 +1,2 @@
+sh /home/leonardop/.screenlayout/dualmonitor.sh
+exec dwm
